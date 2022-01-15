@@ -98,7 +98,6 @@ body {
     margin-top: 10%;
     position: absolute;
     right: 3vh;
-
 }
 
 #change:hover {
@@ -142,7 +141,6 @@ body {
 #cancel:hover {
     color: hsl(223, 47%, 23%);
 }
-
 
 
 .attribution {
