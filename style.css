@@ -9,9 +9,12 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
     margin: 0;
-    padding: 5px 100px 10px;
 }
 
+.container{
+    transform:scale(0.94);
+    }
+    
 
 .container {
     background-color: white;
@@ -19,7 +22,7 @@ body {
     height: 84vh;
     margin: 8vh auto;
     position: relative;
-    width: 54vh;
+    width: 55vh;
 }
 
 .price-box {
@@ -44,7 +47,7 @@ body {
 
 #heading {
     position: absolute;
-    top: 34.8%;
+    top: 34.4%;
     left: 24%;
     color: hsl(223, 47%, 23%);
     font-size: 3.5vh;
@@ -53,7 +56,7 @@ body {
 
 #des {
     color: hsl(224, 23%, 55%);
-    font-size: 2.1vh;
+    font-size: 2.2vh;
     left: 50%;
     line-height: 1.5;
     position: absolute;
@@ -116,7 +119,7 @@ body {
     color: white;
     filter: drop-shadow(0 12px 10px rgb(207, 207, 207));
     font-weight: 700;
-    font-size: 1.9vh;
+    font-size: 2vh;
     height: 7%;
     left: 8.8%;
     position: absolute;
@@ -131,7 +134,7 @@ body {
 
 #cancel {
     color: hsl(224, 23%, 55%);
-    font-size: 2vh;
+    font-size: 2.1vh;
     font-weight: 700;
     position: absolute;
     bottom: 4%;
@@ -146,7 +149,8 @@ body {
 
 
 .attribution {
-    font-size: 70%;
+    font-size: 1.8vh;
+    padding-bottom: 20px;
     text-align: center;
 }
 
