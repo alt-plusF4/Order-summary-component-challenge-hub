@@ -8,20 +8,20 @@ body {
     background-image: url(images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
     background-size: contain;
+    display: flex;
+    align-items: center;
     margin: 0;
 }
 
-.container{
-    transform:scale(0.94);
-    }
-    
 
 .container {
     background-color: white;
     border-radius: 18px;
+    filter: drop-shadow(0 10px 15px rgb(189, 189, 189));
     height: 84vh;
     margin: 8vh auto;
     position: relative;
+    transform: scale(0.94);
     width: 55vh;
 }
 
@@ -117,7 +117,7 @@ body {
     border-radius: 9px;
     border-style: none;
     color: white;
-    filter: drop-shadow(0 12px 10px rgb(207, 207, 207));
+    filter: drop-shadow(0 12px 15px rgb(184, 184, 184));
     font-weight: 700;
     font-size: 2vh;
     height: 7%;
@@ -149,9 +149,11 @@ body {
 
 
 .attribution {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
     font-size: 1.8vh;
-    padding-bottom: 20px;
-    text-align: center;
 }
 
 .attribution a {
