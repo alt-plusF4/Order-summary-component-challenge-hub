@@ -1,0 +1,156 @@
+* {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+
+body {
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0;
+}
+
+
+.container {
+    background-color: white;
+    border-radius: 18px;
+    height: 84vh;
+    margin: 8vh auto;
+    position: relative;
+    width: 54vh;
+}
+
+.price-box {
+    background-color: hsl(225, 100%, 98%);
+    bottom: 17%;
+    border-radius: 10px;
+    height: 14%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 84%;
+}
+
+
+#illustration {
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+#heading {
+    position: absolute;
+    top: 34.8%;
+    left: 24%;
+    color: hsl(223, 47%, 23%);
+    font-size: 3.5vh;
+    font-weight: 900;
+}
+
+#des {
+    color: hsl(224, 23%, 55%);
+    font-size: 2.1vh;
+    left: 50%;
+    line-height: 1.5;
+    position: absolute;
+    text-align: center;
+    top: 49.5%;
+    transform: translate(-50%, -50%);
+    width: 88%;
+}
+
+
+#music-icon {
+    position: absolute;
+    bottom: 2.5vh;
+    left: 3vh;
+    width: 15%;
+}
+
+
+#plan {
+    color: hsl(223, 47%, 23%);
+    font-size: 2vh;
+    font-weight: 900;
+    left: 27%;
+    margin-top: 6.4%;
+    position: absolute;
+}
+
+
+#cost {
+    bottom: 0;
+    margin-bottom: 6.5%;
+    color: hsl(224, 23%, 55%);
+    left: 27%;
+    font-size: 2vh;
+    font-weight: 500;
+    position: absolute;
+}
+
+
+#change {
+    font-size: 1.9vh;
+    font-weight: 700;
+    margin-top: 10%;
+    position: absolute;
+    right: 3vh;
+
+}
+
+#change:hover {
+    color: #766cf1;
+    text-decoration: none;
+}
+
+
+#proceed-button{
+    background-color: hsl(245, 75%, 52%);
+    bottom: 12.2%;
+    border-radius: 9px;
+    border-style: none;
+    color: white;
+    filter: drop-shadow(0 12px 10px rgb(207, 207, 207));
+    font-weight: 700;
+    font-size: 1.9vh;
+    height: 7%;
+    left: 8.8%;
+    position: absolute;
+    width: 82%;
+}
+
+#proceed-button:hover{
+    background-color: #766cf1;
+    cursor: pointer;
+}
+
+
+#cancel {
+    color: hsl(224, 23%, 55%);
+    font-size: 2vh;
+    font-weight: 700;
+    position: absolute;
+    bottom: 4%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+}
+
+#cancel:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
